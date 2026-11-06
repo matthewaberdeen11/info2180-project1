@@ -70,7 +70,7 @@ main .overview-hero {
 }
 
 .cards h3 {
-    color:green;
+    color:#48BB78;
     font-size: 21px;
 }
 
@@ -99,4 +99,31 @@ main .overview-hero {
 
 .learn-about {
     padding: 40px 0;
+}
+
+.testing {
+    padding: 60px 0;
+    background-color: #4A5568;
+    color: white;
+}
+
+.testing .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.testing-description {
+    font-size: 18PX;
+}
+
+.cta a {
+    display: inline-block;
+    background-color: #48BB78;
+    color: white;
+    border-radius: 5px;
+    padding: 12px 24px;
+    text-decoration: none;
+    white-space: nowrap;
 }
