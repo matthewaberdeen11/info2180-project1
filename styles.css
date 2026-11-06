@@ -42,3 +42,23 @@ header {
     background-color: white;
     padding: 20px 0;
 }
+
+main .overview-hero {
+    background:lightblue;
+    padding: 20px;
+}
+
+.overview-hero-text {
+    align-items: center;
+}
+
+.overview-hero-image img {
+    width: 250px;
+    height: auto;
+}
+
+.overview-hero .container {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
