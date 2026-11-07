@@ -14,6 +14,6 @@ document.addEventListener("DOMContentLoaded", function () {
         }else {
             message.textContent = `Thank you! Your email address ${address} has been added to our mailing list!`;
         }
-        c
+        
     })
 });
