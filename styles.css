@@ -127,3 +127,34 @@ main .overview-hero {
     text-decoration: none;
     white-space: nowrap;
 }
+
+.stories img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+
+.stories h2 {
+    color: #5A67D8;
+}
+
+.stories a {
+    color: #5A67D8;
+}
+
+.stories article {
+     display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.stories h3 {
+    font-size: 18px;
+}
+
+.stories {
+    padding: 30px 0;
+}
