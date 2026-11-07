@@ -193,3 +193,13 @@ main .overview-hero {
     color: white;
     border: 0;
 }
+
+footer {
+    background-color: #4A5568;
+    color: white;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 0;
+}
