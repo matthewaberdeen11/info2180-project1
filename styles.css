@@ -44,7 +44,7 @@ header {
 }
 
 main .overview-hero {
-    background:lightblue;
+    background:#E2E8F0;
     padding: 20px;
 }
 
@@ -61,4 +61,42 @@ main .overview-hero {
     display: flex;
     align-items: center;
     gap: 30px;
+}
+
+ .cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.cards h3 {
+    color:green;
+    font-size: 21px;
+}
+
+.card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    display: block;
+}
+
+.learn-about h2 {
+    color: green;
+    font-size: 24px;
+}
+
+.card {
+    border: 1px solid #E2E8F0;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.learn-about {
+    padding: 40px 0;
 }
