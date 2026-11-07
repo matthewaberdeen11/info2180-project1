@@ -7,10 +7,10 @@ document.addEventListener("DOMContentLoaded", function () {
 
     form.addEventListener("submit", function(event){
         event.preventDefault();
-        address = email.value.trim();
+        const address = email.value.trim();
 
         if (address == ""){
-            message.textContent = "Please enter a valid email";
+            message.textContent = "Please enter a valid email address";
         }else {
             message.textContent = `Thank you! Your email address ${address} has been added to our mailing list!`;
         }
